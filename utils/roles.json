@@ -1,0 +1,181 @@
+{
+  "software_engineer": {
+    "display_name": "Software Engineer",
+    "base_questions": [
+      "Walk me through a complex project where you built a feature end-to-end.",
+      "Describe a challenging bug you diagnosed — what clues helped you find the root cause?",
+      "How would you design a scalable, secure REST API for a book catalog service?",
+      "Explain a situation where you improved system performance or optimized code.",
+      "What is your approach to structuring a new codebase or designing system architecture?"
+    ],
+    "follow_ups": [
+      "Can you go deeper into the technical reasoning behind that?",
+      "What were the trade-offs of your solution?",
+      "How did you validate or test your approach?",
+      "If you had more time, how would you improve it?",
+      "What metrics or logs guided your debugging process?"
+    ]
+  },
+
+  "sales": {
+    "display_name": "Sales Associate",
+    "base_questions": [
+      "Tell me about a challenging sale you closed and how you approached it.",
+      "How do you handle objections from hesitant customers?",
+      "Describe a time you exceeded your sales target — what contributed to your success?",
+      "What’s your approach to building long-term customer relationships?",
+      "How do you adapt your pitch to different customer personalities?"
+    ],
+    "follow_ups": [
+      "What specific techniques worked best?",
+      "What was the customer's main hesitation?",
+      "How did you build trust during the conversation?",
+      "What alternatives did you offer?",
+      "How did you follow up after the sale?"
+    ]
+  },
+
+  "data_analyst": {
+    "display_name": "Data Analyst",
+    "base_questions": [
+      "Tell me about a data project where your analysis directly impacted a business decision.",
+      "How do you approach cleaning datasets with missing or inconsistent values?",
+      "Describe a dashboard you built — who used it and how?",
+      "Explain a time when your insights challenged assumptions or changed direction.",
+      "Walk me through your typical workflow from data ingestion to insight."
+    ],
+    "follow_ups": [
+      "Which tools, libraries, or SQL techniques did you rely on?",
+      "How did you validate your findings for accuracy?",
+      "Which KPIs or metrics mattered most?",
+      "How did stakeholders react to your insights?",
+      "Can you break down your data-cleaning approach more clearly?"
+    ]
+  },
+
+  "product_manager": {
+    "display_name": "Product Manager",
+    "base_questions": [
+      "Describe a feature you launched — how did you shape it from concept to delivery?",
+      "How do you prioritize features when roadmapping?",
+      "Tell me about a time when you handled conflicting stakeholder requirements.",
+      "Explain a product decision you made that required difficult trade-offs.",
+      "How do you gather and incorporate user feedback?"
+    ],
+    "follow_ups": [
+      "How did you measure success or impact?",
+      "What data influenced your decisions?",
+      "How did engineering react to the requirements?",
+      "What was your communication strategy?",
+      "What would you change about the process in hindsight?"
+    ]
+  },
+
+  "customer_support": {
+    "display_name": "Customer Support Specialist",
+    "base_questions": [
+      "Tell me about a time you helped an upset customer — how did you resolve the issue?",
+      "How do you ensure great customer satisfaction consistently?",
+      "Walk me through how you handle recurring customer issues.",
+      "Describe a time you exceeded customer expectations.",
+      "What’s your strategy for handling high-volume request periods?"
+    ],
+    "follow_ups": [
+      "What exact steps did you take?",
+      "How did you communicate with the customer?",
+      "What was the final outcome?",
+      "How did you stay calm under pressure?",
+      "How did you follow up to ensure resolution?"
+    ]
+  },
+
+  "retail_associate": {
+    "display_name": "Retail Associate",
+    "base_questions": [
+      "Describe a time you improved the customer experience in your store.",
+      "How do you handle customers who are upset or difficult?",
+      "How do you balance customer service with achieving sales goals?",
+      "Tell me about a time you managed multiple tasks during a busy shift.",
+      "How do you upsell products without being pushy?"
+    ],
+    "follow_ups": [
+      "What specifically happened in that situation?",
+      "How did the customer respond?",
+      "What communication techniques did you use?",
+      "What outcome did you achieve?",
+      "What would you do differently next time?"
+    ]
+  },
+
+  "cloud_engineer": {
+    "display_name": "Cloud Engineer",
+    "base_questions": [
+      "Explain a cloud architecture you designed — walk me through the components.",
+      "How do you troubleshoot latency or downtime in distributed systems?",
+      "Describe your approach to cloud cost optimization.",
+      "How do you ensure security in cloud-based deployments?",
+      "Tell me about an automation or CI/CD improvement you implemented."
+    ],
+    "follow_ups": [
+      "Which AWS/GCP/Azure services did you use?",
+      "How did you monitor the system?",
+      "Can you describe the architecture step-by-step?",
+      "How did you measure reliability?",
+      "What trade-offs did you evaluate?"
+    ]
+  },
+
+  "hr_generalist": {
+    "display_name": "Human Resources Generalist",
+    "base_questions": [
+      "Tell me about a situation where you resolved a conflict between employees.",
+      "How do you handle confidential or sensitive HR matters?",
+      "Describe your approach to recruitment and onboarding.",
+      "How do you ensure fairness in HR decisions?",
+      "Explain a time you improved an HR process."
+    ],
+    "follow_ups": [
+      "What specific steps did you take?",
+      "How did you maintain neutrality?",
+      "What was the final result?",
+      "How did you communicate your decisions?",
+      "Which metrics did you use to measure improvement?"
+    ]
+  },
+
+  "marketing_specialist": {
+    "display_name": "Marketing Specialist",
+    "base_questions": [
+      "Tell me about a marketing campaign you led — what was the goal and result?",
+      "How do you identify and segment your target audience?",
+      "Explain how you measure campaign performance.",
+      "Describe a time you used creativity to solve a marketing challenge.",
+      "How do you balance data-driven and creative decision-making?"
+    ],
+    "follow_ups": [
+      "Which KPIs were most important?",
+      "What tools did you use for analytics?",
+      "What did you learn from the results?",
+      "How did the team contribute?",
+      "What would you improve next time?"
+    ]
+  },
+
+  "business_analyst": {
+    "display_name": "Business Analyst",
+    "base_questions": [
+      "Explain a problem you solved using structured requirements gathering.",
+      "How do you work with both technical and non-technical stakeholders?",
+      "Describe a workflow or process improvement you implemented.",
+      "Tell me about a time you analyzed data to recommend a strategic change.",
+      "How do you validate requirements before development begins?"
+    ],
+    "follow_ups": [
+      "How did you collect stakeholder input?",
+      "Which KPIs improved after your work?",
+      "What tools or diagrams (UML/BPMN) did you use?",
+      "What constraints did you consider?",
+      "How did engineering respond to your documentation?"
+    ]
+  }
+}
