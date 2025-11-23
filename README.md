@@ -1,4 +1,4 @@
-### Interview Practice Partner — AI Voice-Based Mock Interview Agent
+# Interview Practice Partner — AI Voice-Based Mock Interview Agent
 
 A fully voice-enabled, adaptive, agentic AI system that conducts realistic mock interviews, asks intelligent follow-up questions, and provides detailed structured feedback.
 Built as part of the Eightfold.ai AI Agent Building Assignment, this project prioritizes conversation quality, agentic behaviour, and human-like interviewing flow, matching all evaluation criteria.
@@ -22,7 +22,7 @@ Delivering structured, actionable final feedback
 The entire interaction is voice-based for realism and user engagement.
 
 ## 2. Features
-# 2.1 Voice Interaction
+### 2.1 Voice Interaction
 
 Speech-to-Text using Groq Whisper
 
@@ -32,7 +32,7 @@ Automatic gTTS fallback to prevent downtime
 
 Hands-free, natural conversation flow
 
-# 2.2 Warmup Phase
+### 2.2 Warmup Phase
 
 Friendly introduction questions
 
@@ -42,7 +42,7 @@ Avoids repetition
 
 Transitions automatically to interview when user is ready
 
-# 2.3 Adaptive Interviewing
+### 2.3 Adaptive Interviewing
 
 Smart follow-ups when answers are incomplete
 
@@ -54,7 +54,7 @@ Uses difficulty + role context to adjust questioning
 
 Role-specific questions from multiple domains
 
-# 2.4 Detailed Final Feedback
+### 2.4 Detailed Final Feedback
 
 Scores across structure, clarity, examples, communication, confidence, technical depth, follow-up handling
 
@@ -66,7 +66,7 @@ Rewritten answer using STAR/CAR
 
 High-level readiness summary
 
-# 2.5 Multi-Persona Handling
+### 2.5 Multi-Persona Handling
 
 Designed to respond naturally to:
 
@@ -85,7 +85,7 @@ root/
 │
 ├── utils/
 │   ├── llm_client.py      # Groq LLM client with STRICT JSON system prompt  
-│   ├── voice.py           # STT + TTS engine (Groq + fallback)
+│   ├── voice.py           # STT
 │   ├── json_prompts.py    # Warmup, interview, feedback prompts + rules
 │   └── roles.json         # Role questions, follow-up variants
 │
@@ -105,23 +105,17 @@ voice.py — provides robust STT/TTS handling
 roles.json — allows scalable role-driven interviewing
 
 ## 4. Setup Instructions
-#### Step 1: Clone the repository
-git clone <your-public-repo-url>
+### Step 1: Clone the repository
+git clone https://github.com/sanskrithi31/project1.git
 cd <your-repo>
 
-#### Step 2: Create virtual environment
+### Step 2: Create virtual environment
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
 
-#### Step 3: Install dependencies
+### Step 3: Install dependencies
 pip install -r requirements.txt
-
-#### Step 4: Configure environment variables
-
-Create a .env file containing:
-
-GROQ_API_KEY=your_api_key_here
 
 
 Required for:
@@ -130,9 +124,8 @@ LLM completions
 
 Speech-to-text
 
-Text-to-speech
 
-#### Step 5: Run the application
+### Step 5: Run the application
 streamlit run frontend.py
 
 ## 5. Architecture
@@ -325,6 +318,6 @@ Smooth, professional user experience
 This fulfills all evaluation criteria:
 Conversational Quality, Agentic Behaviour, Technical Implementation, Intelligence, and Adaptability.
 
-License
+# License
 
 MIT License.
