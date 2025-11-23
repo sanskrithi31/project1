@@ -273,7 +273,3 @@ Smooth, professional user experience
 
 This fulfills all evaluation criteria:
 Conversational Quality, Agentic Behaviour, Technical Implementation, Intelligence, and Adaptability.
-
-# License
-
-MIT License.
