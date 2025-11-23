@@ -26,10 +26,6 @@ The entire interaction is voice-based for realism and user engagement.
 
 Speech-to-Text using Groq Whisper
 
-Text-to-Speech using Groq PlayAI
-
-Automatic gTTS fallback to prevent downtime
-
 Hands-free, natural conversation flow
 
 ### 2.2 Warmup Phase
@@ -153,10 +149,6 @@ Responsibilities
 
 Transcribe audio using Groq Whisper
 
-Convert text to speech via PlayAI
-
-Provide reliable fallback TTS using gTTS
-
 Why this design?
 
 Full voice interface provides realism
@@ -262,31 +254,8 @@ Edge Case User — system stabilizes conversation
 
 This validates robustness and adaptability.
 
-## 8. Demo Video Guidelines (per assignment)
 
-To score highly:
-
-Ensure the repo is public
-
-Record a maximum 10-minute demo
-
-No slides — product demonstration only
-
-Include:
-
-Multiple roles
-
-Warmup flow
-
-Follow-ups
-
-Final feedback
-
-Voice recording
-
-Persona variations
-
-## 9. Why This Project Stands Out
+## 8. Why This Project Stands Out
 
 Strong agentic reasoning
 
