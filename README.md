@@ -79,20 +79,7 @@ Chatty users
 Edge-case or irrelevant inputs
 
 ## 3. Project Structure
-root/
-│
-├── frontend.py            # Streamlit UI + full conversational state machine
-│
-├── utils/
-│   ├── llm_client.py      # Groq LLM client with STRICT JSON system prompt  
-│   ├── voice.py           # STT
-│   ├── json_prompts.py    # Warmup, interview, feedback prompts + rules
-│   └── roles.json         # Role questions, follow-up variants
-│
-├── requirements.txt
-└── README.md
-
-Key Components
+### Key Components
 
 frontend.py — controls warmup → interview → feedback lifecycle
 
@@ -107,7 +94,7 @@ roles.json — allows scalable role-driven interviewing
 ## 4. Setup Instructions
 ### Step 1: Clone the repository
 git clone https://github.com/sanskrithi31/project1.git
-cd <your-repo>
+cd https://github.com/sanskrithi31/project1.git
 
 ### Step 2: Create virtual environment
 python -m venv venv
